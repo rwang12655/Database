@@ -1,7 +1,6 @@
 README
 
-Program Overview: 
-
+Files of interest: server.c and db.c
 
 Server.c Overview:
 This file's main purpose is to create clients, to handle them appropriately by adding and removing them from the circular doubly linked list of threads, and to handle cleanup properly. If the server is ever to be terminated (achievable only through ctrl-d 
